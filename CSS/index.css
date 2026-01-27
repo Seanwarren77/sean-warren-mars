@@ -61,3 +61,63 @@ padding: 0;
   background-color:#163bb3;
 }
 
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #0a2540; 
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav-links li {
+  margin: 0 15px;
+}
+
+nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav-links a:hover {
+  text-decoration: underline;
+}
+
+.job {
+  background-color: #eef2ff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.job header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.job-title {
+  color: #1f4fd8;
+}
+
+.job-date {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+#connect ul {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  list-style: none;
+}
