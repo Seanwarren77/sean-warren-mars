@@ -77,17 +77,17 @@ nav {
   margin: 0;
 }
 
-nav-links li {
+.nav-links li {
   margin: 0 15px;
 }
 
-nav-links a {
+.nav-links a {
   color: white;
   text-decoration: none;
   font-weight: 500;
 }
 
-nav-links a:hover {
+.nav-links a:hover {
   text-decoration: underline;
 }
 
@@ -98,7 +98,7 @@ nav-links a:hover {
   border-radius: 8px;
 }
 
-.job header {
+.job-header {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
