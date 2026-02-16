@@ -11,7 +11,7 @@ const thisYear = today.getFullYear();
 
 // Create copyright
 const copyright = document.createElement("p");
-copyright.innerHTML = `© Sean Warren ${thisYear}`;
+copyright.textContent = `© Sean Warren ${thisYear}`;
 
 // Add copyright to footer
 footer.appendChild(copyright);
@@ -22,7 +22,7 @@ const skills = [
   "CSS",
   "JavaScript",
   "GitHub",
-  "Responsive Desigh",
+  "Responsive Design",
   "Flexbox & Grid",
   "Accessibility (WCAG)",
   "UI/UX Design",
@@ -36,6 +36,6 @@ const skillsList = skillsSection.querySelector("ul");
 
 for (let i = 0; i < skills.length; i++) {
   const skill = document.createElement("li");
-  skill.innerText = skills [i];
+  skill.innerText = skills[i];
   skillsList.appendChild(skill);
 }
