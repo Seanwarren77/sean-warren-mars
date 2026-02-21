@@ -282,3 +282,19 @@ h2 {
         font-weight: 600;
         cursor: pointer;
       }
+
+      #projects ul {
+        list-style: none;
+        padding: 0;
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      #projects li {
+        background: #ffffff;
+        padding: 0.75rem 1rem;
+        border-radius: 6px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      }
