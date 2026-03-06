@@ -36,7 +36,7 @@ const skillsList = skillsSection.querySelector("ul");
 
 for (let i = 0; i < skills.length; i++) {
   const skill = document.createElement("li");
-  skill.innerText = skills[i];
+  skill.textContent = skills[i];
   skillsList.appendChild(skill);
 }
 
@@ -78,7 +78,7 @@ messageList.appendChild(newMessage);
 // FETCH GITHUB REPOSITORY
 // ==============================
 
-fetch ("https://api.github.com/users/Seanwarren77/repos")
+fetch("https://api.github.com/users/Seanwarren77/repos")
   .then(response => response.json())
   .then(data => {
     const repositories = data;
@@ -89,7 +89,7 @@ fetch ("https://api.github.com/users/Seanwarren77/repos")
 
     for (let i = 0; i < repositories.length; i++) {
       const project = document.createElement("li");
-      project.innerText = repositories[i]["name"];
+      project.textContent = repositories[i]["name"];
       projectList.appendChild(project);
     }
   })
